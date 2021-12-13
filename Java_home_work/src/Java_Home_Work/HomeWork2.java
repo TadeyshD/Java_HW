@@ -16,7 +16,9 @@ public class HomeWork2 {
     // Написать метод, принимающий на вход два целых числа и проверяющий,
     // что их сумма лежит в пределах от 10 до 20 (включительно), если да – вернуть true,
     // в противном случае – false.
-    public static boolean sum_of_numbers(int a, int b) {return a + b >= 10 && a + b <= 20;}
+    public static boolean sum_of_numbers(int a, int b) {
+        return a + b >= 10 && a + b <= 20;
+    }
 
     //Написать метод, которому в качестве параметра передается целое число,
     //метод должен напечатать в консоль, положительное ли число передали или отрицательное.
@@ -30,7 +32,9 @@ public class HomeWork2 {
     }
     //Написать метод, которому в качестве параметра передается целое число.
     //Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.
-    public static boolean positive_or_negative_vol_2(int a) {return a < 0;}
+    public static boolean positive_or_negative_vol_2(int a) {
+        return a < 0;
+    }
     //Написать метод, которому в качестве аргументов передается строка и число,
     //метод должен отпечатать в консоль указанную строку, указанное количество раз;
     public static void numbers(String w, int t) {
@@ -43,6 +47,8 @@ public class HomeWork2 {
     }
     //Написать метод, который определяет, является ли год високосным,
     //и возвращает boolean (високосный - true, не високосный - false).
-    public static boolean stellar_challenge(int y){return y % 4 == 0 && y % 100 > 0 || y % 400 == 0 && y % 100 == 0;}
+    public static boolean stellar_challenge(int y){
+        return (y % 4 == 0) && (y % 100 > 0) || (y % 400 == 0 && y % 100 == 0);
+    }
 
 }
