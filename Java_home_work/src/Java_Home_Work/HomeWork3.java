@@ -1,8 +1,6 @@
 package Java_Home_Work;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Random;
 
 public class HomeWork3 {
     public static void main(String[] args) {
@@ -82,11 +80,7 @@ public class HomeWork3 {
         }
         System.out.print(Arrays.toString(arr));
     }
-
 //6. * Задать одномерный массив и найти в нем минимальный и максимальный значения элементов;
  //7. ** Написать метод, в который передается не пустой одномерный целочисленный массив,
 //метод должен вернуть true, если в массиве есть место, в котором сумма левой и правой части массива равны.
-
-
-
 }
