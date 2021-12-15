@@ -13,8 +13,7 @@ public class HomeWork3 {
         decreasing_the_array();
         System.out.println("");
         diagonal_table();
-        reasoned_method(7, 14);
-
+        reasoned_array(7, 14);
     }
 
 
@@ -76,7 +75,7 @@ public class HomeWork3 {
 
     //5. Написать метод, принимающий на вход два аргумента: len и initialValue, и возвращающий одномерный массив типа int длиной len,
 // каждая ячейка которого равна initialValue;
-    public static void reasoned_method(int len, int initialValue) {
+    public static void reasoned_array(int len, int initialValue) {
         int arr[] = new int[len];
         for (int i = 0; i < arr.length; i++){
             arr[i] = initialValue;
@@ -85,8 +84,7 @@ public class HomeWork3 {
     }
 
 //6. * Задать одномерный массив и найти в нем минимальный и максимальный значения элементов;
-
-//7. ** Написать метод, в который передается не пустой одномерный целочисленный массив,
+ //7. ** Написать метод, в который передается не пустой одномерный целочисленный массив,
 //метод должен вернуть true, если в массиве есть место, в котором сумма левой и правой части массива равны.
 
 
