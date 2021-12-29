@@ -20,7 +20,7 @@ public class MainWindow extends JFrame {
         mapPanel = new GamePanel();
         infoPanel = new InfoPanel(this);
         add(mapPanel);
-        add(infoPanel, BorderLayout.SOUTH);
+        add(infoPanel, BorderLayout.EAST);
         setVisible(true);
     }
 

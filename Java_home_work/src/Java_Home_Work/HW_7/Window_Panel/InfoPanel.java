@@ -12,7 +12,7 @@ import java.awt.*;
 public class InfoPanel extends JPanel { //info
         private control_button control_button;
         private info_field info_field;
-        private move_button move_button;
+        private Java_Home_Work.HW_7.Window_Panel.control_panel.move_button move_button;
         private player_stats player_stats;
 
         private JTextArea log; // для текста
@@ -25,8 +25,9 @@ public class InfoPanel extends JPanel { //info
 
         add(control_button);
         add(info_field);
-        add(move_button);
         add(player_stats);
+        add(move_button);
+        add(scroll);
 
     }
         private void test_panel(){
