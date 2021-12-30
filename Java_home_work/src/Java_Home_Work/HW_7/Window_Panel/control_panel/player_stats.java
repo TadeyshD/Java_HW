@@ -16,7 +16,7 @@ public class player_stats extends JPanel {
 
 
     public player_stats(){
-        setLayout(new GridLayout(5,1));
+        setLayout(new GridLayout(6,1));
         hp = new JLabel(hp_check);
         mp = new JLabel(mp_check);
         str = new JLabel(str_check);
@@ -26,5 +26,6 @@ public class player_stats extends JPanel {
         add(mp);
         add(str);
         add(exp);
+        add(new JLabel("====================", SwingConstants.CENTER));
     }
 }
